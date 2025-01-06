@@ -1,0 +1,48 @@
+Q) Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+A) A data type specifies the kind of value a variable can store, such as integers, floating-point numbers, characters, strings, or more complex data structures.
+
+Primitive Data Types
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Primitive data types are the most basic types of data built into a programming language. These are predefined by the language and typically represent single values.
+
+Examples of Primitive Data Types:
+Integer (int): Holds whole numbers.
+Example: int age = 25;
+Floating Point (float, double): Holds decimal numbers.
+Example: float price = 99.99;
+Character (char): Holds a single character.
+Example: char grade = 'A';
+Boolean (bool): Holds true or false.
+Example: bool isAvailable = true;
+String (in some languages): Holds a sequence of characters (though some consider strings non-primitive).
+Example: string name = "Alice";
+
+
+Non-Primitive Data Types
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Non-primitive data types (also called reference types) are more complex and can be user-defined. They are derived from primitive data types and include structures like arrays, classes, and collections.
+
+Examples of Non-Primitive Data Types:
+
+Functions: A function is a block of reusable code that performs a specific task.
+Example: 
+function Add(int a,int b){
+	return a+b;
+}
+
+Objects: An object is an instance of a class in object-oriented programming (OOP).
+
+Arrays: A collection of elements of the same type.
+Example: int[] numbers = {1, 2, 3, 4, 5};
+
+
+Key Differences Between Primitive and Non-Primitive Data Types
+
+Primitive Data Types	 	||Non-Primitive Data Types
+Basic, built-in data types	||Derived or user-defined types
+Simple				||Complex
+Stores actual value		||Stores reference to memory
+int, float, char, bool		||array, functions, objects, etc.
+Cannot be customized		||Can be customized by the user
+
