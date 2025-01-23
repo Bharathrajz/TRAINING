@@ -86,23 +86,38 @@
 // });
 // console.log(p3)
 
-function fetchusers(){
-    let x = fetch("https://jsonplaceholder.typicode.com/users");
-    x.then((response)=>{
-        return response.json().then(data=>{
-            console.log(data);
-            let store = document.getElementById("store");
-            data.map((user)=>{
-                store.innerhtml += 
-                <tr>
-                    <td>
-                    </td>
-                </tr>
+// function fetchusers(){
+//     let x = fetch("https://jsonplaceholder.typicode.com/users");
+//     x.then((response)=>{
+//         return response.json().then(data=>{
+//             console.log(data);
+//             let store = document.getElementById("store");
+//             data.map((user)=>{
+//                 store.innerhtml += 
+//                 <tr>
+//                     <td>
+//                     </td>
+//                 </tr>
  
-            })
-        })
-    })
-    .catch(err=>console.log(err))
-}
-fetchusers();
+//             })
+//         })
+//     })
+//     .catch(err=>console.log(err))
+// }
+// fetchusers();
+
+
+// function demo(){
+//     console.log("hello");
+//     console.log("Bye");
+//     console.log("Hello")
+// }
+// demo();
+
+// async function fetchusers(){
+//     let response =await fetch("https://api.github.com/users");
+//     let data =await response.json();
+//     console.log(data);
+// }
+// fetchusers();
 
